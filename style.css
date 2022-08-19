@@ -1,0 +1,83 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h6 {
+    color: #888;
+    margin: 0.5em;
+}
+h4 {
+    margin: 0.5em;
+}
+h6 {
+    margin: 0.5em;
+}
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid22{
+    display: grid;
+    
+}
+.grid2x {
+    margin-block-start: 2em;
+    gap: 1em;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    
+}
+
+.grid33 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-right: 2px solid grey;
+}
+.grid2s {
+    color: #ffffff;
+    background-color: #303845;
+    gap: 3em;
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+img {
+    height:90;
+    width: 100%;
+}
+.grid2i {
+    display: grid;
+    grid-template-columns: 0.06fr 0.8fr;
+}
+
+span.material-symbols-outlined {
+    line-height: unset;
+    font-size: 1.2em;
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+}
+
+span.material-symbols-sharp {
+    text-align: end;
+    transform: rotateY(180deg);
+    font-size: 1.2em;
+    /* margin-inline-end: 0em; */
+}
+
+address {
+    color: #888;
+    margin-inline-start: -1.6em;
+}
+progress {
+    height: 7px;
+    border-radius: 0;
+}
+progress::-webkit-progress-value {
+    color: #fff;
+    background: #303845;
+}
